@@ -1,0 +1,35 @@
+body{
+    background-color: beige;
+    
+    background-image: url(https://github.githubassets.com/images/modules/signup/launch_codes/launch-codes-mona-fallback@1x.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: scroll;
+}
+p{
+    color: rgb(255, 208, 0);
+}
+
+h1{
+    color: rgb(0, 217, 255);
+}
+#par1{
+
+    color: blueviolet;
+    background-color: black;
+    border-style: dashed;
+    border-width: 10px;
+    border-radius:10px;
+    border-left-style: solid;
+    border-top-style: dotted;
+    border-right-style: solid;
+    /* border-color: rgb(233, 14, 197); */
+}
+#par2{
+    color: rgb(0, 255, 42);
+}
+.one{
+    font-style: italic;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+}
