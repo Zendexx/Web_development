@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(20, 19, 19);
+    text-align: center;
+}
+
+.top-div{
+    width: 500px;
+    background-color: whitesmoke;
+    margin: auto;
+    margin-top: 150px;
+    text-align: center;
+    border-radius: 5px;
+    border:solid 5px rgb(0,4,8)
+    
+    
+}
+.Title{
+    font-size: 50px;
+}
+.credentials{
+    padding: 10px;
+    font-size: 20px;
+    border-style: dashed;
+    border-radius: 5px;
+    border-color: blue;
+    background-color: black;
+    
+}
+#username_input{
+    margin-bottom: 15px;
+}
+
+#sign_button{
+    width: 250px;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: rgb(35, 255, 255);
+    color: black;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}

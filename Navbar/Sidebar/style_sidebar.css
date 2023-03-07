@@ -1,0 +1,96 @@
+
+.sidebar{
+    background-color: blueviolet;
+    width: 150px;
+    height: 100%;
+    position: fixed;
+    padding: 70px;
+    margin-top: 0%;
+    margin-left: 0%;
+
+}
+.sidebar ul{
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+li{
+    padding: 10px 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.sidebar a{
+    text-decoration: none;
+    color: lightblue;
+}
+a:hover{
+    background-color: black;
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+.logo-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow-y: none;
+}
+.my_name{
+    font-size: 35px;
+    color: #000000;
+    font-weight: bold;
+}
+.introduction{
+    margin-left: 350px;
+}
+.introduction-text{
+    font-size: 25px;
+}
+.contact-me{
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.contact-me a{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 6px;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: palevioletred;
+}
+.contact-me a:hover{
+    background-color: black;
+    color: whitesmoke;
+    transition: 200ms ease-in-out;
+
+}
+.Read-more{
+    padding: 10px
+
+}
+.Read-more a{
+    color: whitesmoke;
+    background-color: black;
+    font-weight: bold;
+    padding: 8px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.Read-more a:hover{
+    background-color: whitesmoke;
+    color: black;
+    transition: 200ms ease-in-out;
+    
+}
+.ll{
+    padding: 5px;
+    border: 1px solid whitesmoke;
+}
+nav{
+    text-align: center;
+}
