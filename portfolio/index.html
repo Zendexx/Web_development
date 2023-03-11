@@ -2,90 +2,228 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X=UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Porfolio</title>
+    <meta http-equiv="x-UA-Compatible" content="IE=edge">
+    <meta name="Viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Portfolio</title>
     <link rel="stylesheet" href="style_index.css">
-
+    <script src="https://kit.fontawesome.com/86e5cb6ee7.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<div id="header">
-    <div class="container">
-        <nav>
-            <ul>
-                <li><a href='#'>Home</a></li>
-                <li><a href='#'>About</a></li>
-                <li><a href='#'>Services</a></li>
-                <li><a href='#'>Portfolio</a></li>
-                <li><a href='#'>Contact</a></li>
-            </ul>
-        </nav>
-        <div class="header-text">
-            <p>Python Trainee</p>
-            <h1>Hi, I'm <span>Bryan</span> <br>Bryan From Kenya</h1>
-        </div>
-    </div>
-</div>
-<!-- about section --------------------->
-<div id="about">
-    <div class="container">
-        <div class="row">
-            <div class="about-col-1"></div>
-            <div class="about-col-2"></div>
-                <h1>About me</h1>
-
-
-        </div>
-    </div>
-</div>
-
-<div class="main_content">
-    <div class="introduction">
-        <h1>Who am i</h1>
-        <p class="introduction-text"> 
-            I am Bryan, a python trainee
-        </p>
-        
-        <div class="contact-me">
-            <a href="#">
-                contact-me
-            </a>
-        </div>
-        <div class="my-work"></div>
-            <h1>My previous Work</h1>
-
-            <!-- First project -->
-            <div class="work">
-                <h2>1.Built a School Website</h2>
-                <ul>
-                    <li>item 1</li>
-                    <li>item 2</li>
-                    <li>item 3</li>
-                    <li>item 4</li>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
                 </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Python Trainee</p>
+                <h1>Hi, I'm <span>Bryan</span><br> Mukundi from Kenya</h1>
+            </div>
+        </div>
+    </div>
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <!-- <img src="images/user.png"> -->
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Voluptate obcaecati laudantium impedit sunt illum veniam placeat odio cum 
+                        fuga quisquam ad, culpa dolore doloremque quia maxime, soluta aliquid. Omnis, quo.</p>
 
-                <div class="Read-more">
-                    <a href="#">
-                        Read-more
-                    </a>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                           
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Python</span><br> Designing web/App interfaces</li>
+                                <li><span>Web-development</span><br> Designing web/App interfaces</li>
+                                <li><span>Robotics</span><br> Designing web/App interfaces</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2023</span><br> Designing Portfolio</li>
+                                <li><span>2022</span><br> Making 3d models with blender</li>
+                                <li><span>2019</span><br> Making games with unity</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2023</span><br> Certificate of Coding From JKUAT University</li>
+                                <li><span>2022</span><br> Form 4 O Level from Nairobi School</li>
+                                <li><span>2019</span><br> Class 8 B level from Stepping Stones Academy</li>
+                            </ul>
+                        </div>
                 </div>
             </div>
-            <div class="work"></div>
-            <h2>2.Build a Test Robot</h2>
-                <ul>
-                    <li>Item 1</li>
-                    <li>Item 2</li>
-                </ul>
-
-                <div class="Read-more">
-                    <a href="#">
-                        Read-more
-                    </a>
-                </div>
-            <div class="work"></div>
-    
+        </div>
     </div>
-</div>
+ <!--------------- Services ----------------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit 
+                        eligendi nulla unde laboriosam fugiat optio inventore quo accusamus 
+                        saepe, maxime sit necessitatibus in doloremque eaque alias quae nisi explicabo 
+                        aspernatur.</p>
+                        <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Python</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit 
+                        eligendi nulla unde laboriosam fugiat optio inventore quo accusamus 
+                        saepe, maxime sit necessitatibus in doloremque eaque alias quae nisi explicabo 
+                        aspernatur.</p>
+                        <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-robot"></i>
+                    <h2>Robotics</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit 
+                        eligendi nulla unde laboriosam fugiat optio inventore quo accusamus 
+                        saepe, maxime sit necessitatibus in doloremque eaque alias quae nisi explicabo 
+                        aspernatur.</p>
+                        <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+ <!-- --------------Portfolio ------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <Img src="images/python-symbol.png">
+                        <div class="layer">
+                            <h3>Python</h3>
+                            <p>The app allows you to create programmes and codes.</p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                </div>
+                <div class="work">
+                    <Img src="images/top11.png">
+                        <div class="layer">
+                            <h3>HTML/Css</h3>
+                            <p>The file allows you to create and customise your own website.</p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                </div>
+                <div class="work">
+                    <Img src="images/Robotics-and-Automation.jpg">
+                        <div class="layer">
+                            <h3>Robotics</h3>
+                            <p>AI technology is improving vaslty across the globe. Robotics deals with the Making
+                                and Designing of Ai and its application in every day life.
+                            </p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
 
+<!------------------- Contact ---------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> contact@exapmle.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 0112250303</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://discord.com"><i class="fa-brands fa-discord"></i></i></a>
+                        <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com"><i class="fa-brands fa-twitter-square"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-sharp fa-regular fa-copyright"></i>. Bryan.<i class="fa-solid fa-heart"></i> Made by Panda</p>
+        </div>
+    </div>
+   
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname)
+    {
+        for(tablink of tablinks)
+        {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents)
+        {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+     
+
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+  const scriptURL = '<https://script.google.com/macros/s/AKfycbzCA1z0pDIilEp8OHb5KIDh4h6VbiU__DFCRaQ0XTsPijooruwFOwKgGYVtGKe2WKM_/exec>'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent succesfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
 </body>
 </html>

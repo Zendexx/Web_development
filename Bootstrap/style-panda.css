@@ -1,0 +1,14 @@
+.carousel-item{
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    margin-left: 25%;
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    color: red;
+}
+p{
+    font-family: 'Tilt Prism', cursive;
+    color: #000;
+}
