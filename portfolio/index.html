@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Lao:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Source+Sans+Pro:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="x-UA-Compatible" content="IE=edge">
     <meta name="Viewport" content="width=device-width, initial-scale=1.0">
@@ -12,19 +21,19 @@
     <div id="header">
         <div class="container">
             <nav>
-                <img src="images/logo.png" class="logo">
+                <img src="images/imageedit_5_5421096232.png" class="logo">
                 <ul id="sidemenu">
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#header" id="About-font1">Home</a></li>
+                    <li><a href="#about" id="About-font1">About</a></li>
+                    <li><a href="#services" id="About-font1">Services</a></li>
+                    <li><a href="#portfolio" id="About-font1">My Work</a></li>
+                    <li><a href="#contact" id="About-font1">Contact</a></li>
                     <i class="fas fa-times" onclick="closemenu()"></i>
                 </ul>
                 <i class="fas fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-                <p>Python Trainee</p>
+                <p id="About-font1">Python Trainee, Web-developer</p>
                 <h1>Hi, I'm <span>Bryan</span><br> Mukundi from Kenya</h1>
             </div>
         </div>
@@ -34,13 +43,16 @@
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <!-- <img src="images/user.png"> -->
+                    <img src="images/manhwa-solo-leveling-sung-jin-woo-hd-wallpaper-preview.jpg">
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About me</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Voluptate obcaecati laudantium impedit sunt illum veniam placeat odio cum 
-                        fuga quisquam ad, culpa dolore doloremque quia maxime, soluta aliquid. Omnis, quo.</p>
+                    <p id="About-font2"> I'm a curious person 
+                        who loves anime, books, games, and coding. I'm always eager to learn new 
+                        things and explore new ideas. When it comes to books, I'm particularly interested
+                            in Business and finance, and some of my favorite authors include [Robert Kiyosaki and Robert Greene]. As for
+                             games, I love the challenge and creativity involved in programming my own games and models.
+                             Overall, I'm excited to connect with others and learn their experiences.</p>
 
                         <div class="tab-titles">
                             <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
@@ -49,24 +61,26 @@
                            
                         </div>
                         <div class="tab-contents active-tab" id="skills">
-                            <ul>
-                                <li><span>Python</span><br> Designing web/App interfaces</li>
-                                <li><span>Web-development</span><br> Designing web/App interfaces</li>
-                                <li><span>Robotics</span><br> Designing web/App interfaces</li>
+                            <ul >
+                                <li id="About-font2"><span>Python</span><br> Making a guessing game
+                                <br> Making a calculator <br> Making programmes</li>
+                                <li id="About-font2"><span>Web-development</span><br> Designing web/App interfaces<br> Styling websites 
+                                    using: CSS and JavaScript.<br>Using Third party apps: Bootstrap </li>
+                                <li id="About-font2"><span>Robotics</span><br> Skills not yet obtained lol .</li>
                             </ul>
                         </div>
                         <div class="tab-contents" id="experience">
                             <ul>
-                                <li><span>2023</span><br> Designing Portfolio</li>
-                                <li><span>2022</span><br> Making 3d models with blender</li>
-                                <li><span>2019</span><br> Making games with unity</li>
+                                <li id="About-font2"><span>2023</span><br> Designing Portfolio</li>
+                                <li id="About-font2"><span>2022</span><br> Making 3d models with blender and Cinema 4D</li>
+                                <li id="About-font2"><span>2019</span><br> Making games with unity</li>
                             </ul>
                         </div>
                         <div class="tab-contents" id="education">
                             <ul>
-                                <li><span>2023</span><br> Certificate of Coding From JKUAT University</li>
-                                <li><span>2022</span><br> Form 4 O Level from Nairobi School</li>
-                                <li><span>2019</span><br> Class 8 B level from Stepping Stones Academy</li>
+                                <li id="About-font2"><span>2023</span><br> Learning Coding Short Course in JKUAT University</li>
+                                <li id="About-font2"><span>2022</span><br> Graduated from Highschool with KCSE Certificate</li>
+                                <li id="About-font2"><span>2019</span><br> Graduated from primary school with KCPE Certificate</li>
                             </ul>
                         </div>
                 </div>
@@ -81,25 +95,28 @@
                 <div>
                     <i class="fa-solid fa-code"></i>
                     <h2>Web Design</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit 
-                        eligendi nulla unde laboriosam fugiat optio inventore quo accusamus 
-                        saepe, maxime sit necessitatibus in doloremque eaque alias quae nisi explicabo 
-                        aspernatur.</p>
+                    <p id="About-font2"> I'm an intermediate web designer. I have experience working with HTML, CSS, and JavaScript 
+                        to design and develop responsive websites.I have experience using tools 
+                        such as Adobe Photoshop and Illustrator to visual assets and modded pictures. 
+                        Some of the projects I've worked on include [My first webpage and my portfolio]. I'm excited to 
+                        continue honing my web design skills and exploring new techniques.</p>
                         <a href="#">Learn More</a>
                 </div>
                 <div>
                     <i class="fa-brands fa-python"></i>
                     <h2>Python</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit 
-                        eligendi nulla unde laboriosam fugiat optio inventore quo accusamus 
-                        saepe, maxime sit necessitatibus in doloremque eaque alias quae nisi explicabo 
-                        aspernatur.</p>
+                    <p id="About-font2">I'm a novice Python coder. I have coded 
+                        with Python to develop and execute programs and scripts in the last 2 months,I'm comfortable with core concepts 
+                        such as data types,variables, and creating functions. Some of the projects I've worked on 
+                        include [Making a game, Making a calculator], you can find the links to my giyhub account below 
+                        as well some of the screenshots of my projects. I'm excited to continue
+                         developing my skills in Python.</p>
                         <a href="#">Learn More</a>
                 </div>
                 <div>
                     <i class="fa-solid fa-robot"></i>
                     <h2>Robotics</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit 
+                    <p id="About-font2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit 
                         eligendi nulla unde laboriosam fugiat optio inventore quo accusamus 
                         saepe, maxime sit necessitatibus in doloremque eaque alias quae nisi explicabo 
                         aspernatur.</p>
@@ -117,20 +134,24 @@
                     <Img src="images/python-symbol.png">
                         <div class="layer">
                             <h3>Python</h3>
-                            <p>The app allows you to create programmes and codes.</p>
-                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <p>The app allows you to create programmes and codes. To view my works in python,
+                                click the link below.
+                            </p>
+                                <a href="https://github.com/Zendexx"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                         </div>
                 </div>
                 <div class="work">
-                    <Img src="images/top11.png">
+                    <Img src="images/cartoon-web-design-background_52683-70879.avif">
                         <div class="layer">
                             <h3>HTML/Css</h3>
-                            <p>The file allows you to create and customise your own website.</p>
-                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <p>The file allows you to create and customise your own website. To see my works using 
+                                HTML and Css click the link below.
+                            </p>
+                                <a href="https://github.com/Zendexx/Web_development"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                         </div>
                 </div>
                 <div class="work">
-                    <Img src="images/Robotics-and-Automation.jpg">
+                    <Img src="images/Top-7-Projects-in-Robotics-for-Beginners-and-Intermediates.png">
                         <div class="layer">
                             <h3>Robotics</h3>
                             <p>AI technology is improving vaslty across the globe. Robotics deals with the Making
@@ -150,13 +171,13 @@
             <div class="row">
                 <div class="contact-left">
                     <h1 class="sub-title">Contact Me</h1>
-                    <p><i class="fa-solid fa-paper-plane"></i> contact@exapmle.com</p>
+                    <p><i class="fa-solid fa-paper-plane"></i> danielbryan62F@gmail.com</p>
                     <p><i class="fa-solid fa-phone"></i> 0112250303</p>
                     <div class="social-icons">
-                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="https://discord.com"><i class="fa-brands fa-discord"></i></i></a>
-                        <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="https://twitter.com"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://wa.link/rcsd6p"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://discord.com/users/BbryanB#0456"><i class="fa-brands fa-discord"></i></i></a>
+                        <a href="https://www.instagram.com/anone_mous.e/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/BryanPanda9"><i class="fa-brands fa-twitter-square"></i></a>
                     </div>
                     <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
                 </div>
@@ -208,13 +229,11 @@
     }
 </script>
 <script>
-  const scriptURL = '<https://script.google.com/macros/s/AKfycbzCA1z0pDIilEp8OHb5KIDh4h6VbiU__DFCRaQ0XTsPijooruwFOwKgGYVtGKe2WKM_/exec>'
-  const form = document.forms['submit-to-google-sheet']
-  const msg = document.getElementById("msg")
-
-  form.addEventListener('submit', e => {
-    e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby8z7rq0es88atG6vkUUTZAGW_1jvjixa_V0UCrbAQjgv3xle9ghC2pEyZqoP13nX8/exec'
+    const form = document.forms['submit-to-google-sheet']
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
       .then(response => {
         msg.innerHTML = "Message sent succesfully"
         setTimeout(function(){
@@ -222,8 +241,9 @@
         },5000)
         form.reset()
       })
-      .catch(error => console.error('Error!', error.message))
-  })
-</script>
+      .catch(error => console.error('Error!', error.message)) 
+    })
+  </script>
+
 </body>
 </html>
